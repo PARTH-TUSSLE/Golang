@@ -2,33 +2,33 @@ package main
 
 import (
 	"fmt"
-	// "time"
+	"time"
 )
 
 func main() {
 
 
 	//Single SWITCH STATEMENT
-	// i := 3
+	i := 3
 
-	// switch i {
-	// case 1:
-	// 	fmt.Println("One")
-	// case 2:
-	// 	fmt.Println("Two")
-	// case 3:
-	// 	fmt.Println("Three")
-	// }
+	switch i {
+	case 1:
+		fmt.Println("One")
+	case 2:
+		fmt.Println("Two")
+	case 3:
+		fmt.Println("Three")
+	}
 
 
 	//Multiple SWITCH STATEMENT
 
-	// switch time.Now().Weekday() {
-	// 	case time.Saturday, time.Sunday : 
-	// 	fmt.Println("It's a Weekend")
+	switch time.Now().Weekday() {
+		case time.Saturday, time.Sunday : 
+		fmt.Println("It's a Weekend")
 
-	// 	default : 
-	// 	fmt.Println("It's a Week day")
+		default : 
+		fmt.Println("It's a Week day")
 
 
 
@@ -49,4 +49,5 @@ func main() {
 	}
 
 	whoAmI(34.34)
+}
 }
