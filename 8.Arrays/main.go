@@ -7,7 +7,7 @@ func main() {
 	//zeroed values
 
 	var nums [5]int
-	//All the element are initialized as 0(in case of INT Arr)
+	//All the element are initialized as 0(in case of INT Arr) ( false ico bool array ) ( "" ico string array )
 	nums[0] = 1
 	fmt.Println(nums)
 

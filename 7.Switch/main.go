@@ -34,7 +34,7 @@ func main() {
 
 	//TYPE SWITCH
 
-	whoAmI := func (i interface{})  {
+	whoAmI := func (i interface{})  {    // interface{} -> any type
 		switch i.(type) {
 		case int:
 			fmt.Println("It is an Integer!")
