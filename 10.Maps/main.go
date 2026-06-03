@@ -22,7 +22,7 @@ func main() {
 
 	// element exists or not
 
-	v, ok := m2["pric"]
+	v, ok := m2["price"]
 	if ok {
 		fmt.Println("All ok!", v)
 	} else {
