@@ -29,4 +29,27 @@ func main() {
 		fmt.Println("not ok!", v)
 	}
 
+
+	if v, ok := m2["ages"]; ok {
+		fmt.Println(v)
+	} else {
+		fmt.Println("The key doesn't exist")
+	}
+
+ // range in maps
+
+	prices := map[string]int{
+		"a": 100,
+		"b": 200,
+	}
+
+	total := 0
+
+	for item, price := range prices {
+		fmt.Println(item);
+		total = total + price;
+		fmt.Println(total);
+	}
+
+
 }

@@ -38,5 +38,13 @@ func main() {
 
 	fmt.Println(nums[0:3])
 	fmt.Println(slices.Equal(nums2, nums)) // in-built slices package 
+
+	// for range over slice 
+
+	prices := []int{10,12,14,16,19,26};
+	
+	for i,v := range prices{
+		fmt.Println("Price on day", i, "is", v);
+	}
 	
 }

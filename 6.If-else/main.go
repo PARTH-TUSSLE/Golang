@@ -37,6 +37,16 @@ func main() {
 		fmt.Println("The person is a kid!", age)
 	}
 
+	// if-else with short-statement
+
+	items := 3;
+	pricePerItem := 22;
+
+	if total := items * pricePerItem; total >= 50 {
+		fmt.Println("Yes")
+	} else {
+		println("No")
+	}
 	
 
 }
